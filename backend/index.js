@@ -7,7 +7,7 @@ var app=Express();
 app.use(cors());
 
 
-var CONNECTION_STRING="mongodb+srv://simranmeena2004:<password>@cluster0.xcrwojb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+var CONNECTION_STRING="mongodb+srv://simranmeena2004:<your_id_password>@cluster0.xcrwojb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 var DATABASENAME="todoappdb";
 var database;
 
